@@ -1,0 +1,26 @@
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+    font-family: "Suisse";
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff);
+    font-family: "Suisse";
+    font-weight: bold;
+}
+
+.page {
+    height: 100%;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    background-color: #323131;
+    color: white;
+    max-width: 540px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Suisse";
+    box-sizing: border-box;
+    padding: 36px;
+    max-height: 100vh;
+}
